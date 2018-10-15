@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-        <title>About | Richard Vargas</title>
+        <title>Contact | Richard Vargas</title>
 
         <!-- Boostrap Stylesheet -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -18,6 +18,7 @@
     </head>
 
     <body>
+
         <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
             <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -55,25 +56,29 @@
         <main class="container">
             <section class="row">
                 <div class="col-md-8">
-                    <article class="block">
-                        <h1 class="block-header">About Me</h1>
+                    <form class="block form-horizontal">
+                        <h1 class="block-header">Contact</h1>
                         <hr />
-                        <img src="https://avatars0.githubusercontent.com/u/41411648?s=460&v=4.jpg" id="myPhoto" alt="My Picture">
-                        <p>My name is Richard Vargas. I am an easy-going person. My hobbies include listening to music,
-                            watching movies, and playing video games.
-                            My musical taste varies from moment to moment really. I'll find myself listening to hip-hop
-                            when I want to turn up, some film scores to help me focus, and rock to help destress.
-                            I love wacthing mostly super hero movies, but I will tune into the occasional sci-fi and
-                            thriller type films. The type of games I play are almost all single player/story driven games.
-                            I am a college graduate.</p>
-                            <br />
-                            I received a BA in Communication Studies from the University of Texas
-                            ar Arlington. Throughout the regular weekdays in Houston you can find me working at the
-                            Marathon Oil Corporation.
-                            I am a mail room clerk, handling and assisting in package delivery. Anytime outside of that I
-                            spend doing my hobbies, with my family and now, learning to code with the UT Houston Bootcamp
-                            system.</p>
-                    </article>
+                        <div class="form-group">
+                            <label for="name" class="col-sm-2 control-label">Name</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="name" placeholder="Name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="col-sm-2 control-label">Email</label>
+                            <div class="col-sm-10">
+                                <input type="password" class="form-control" id="email" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label" for="msg">Message</label>
+                            <div class="col-sm-10">
+                                <textarea id="msg" class="form-control" rows="3" placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                        <button class="submit-btn">Submit</button>
+                    </form>
                 </div>
             </section>
         </main>
@@ -93,6 +98,7 @@
 
         <!-- Bootstrap CDN -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>>
+
     </body>
 
 </html>
