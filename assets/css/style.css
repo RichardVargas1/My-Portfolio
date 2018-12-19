@@ -1,3 +1,5 @@
+/* @import url("reset.css");
+
 /* --- STYLES FOR ALL PAGES --- */
 body {
     /* Typography */
@@ -28,7 +30,6 @@ body {
   /* create styles for use for all white main boxes */
   .block {
     background-color: rgb(206, 206, 206);
-  
     padding: 30px;
     margin-bottom: 30px;
   }
@@ -41,36 +42,91 @@ body {
   }
   
   /* NAV START */
-  #logo {
-    font-family: Georgia, Times, "Times New Roman", serif;
-  
+  #navContainer {
+    position: fixed;
+    z-index: 99;
+
+    /* Box-model */
+    width: 99.99%;
+    top: 0;
+
+    /* Positioning */
+    margin: 0 0 30px;
+    overflow: auto;
+
     /* Typography */
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
-  
+    color: rgb(206, 206, 206);
+    background: rgb(206, 206, 206);
+
+    /* Visual */
+    border-bottom: 2px solid #ccc;
+  }
+
+  #logo {
+    float: left;
+
+    /* Box-model */
+    width: 250px;
+    height: 90px;
+
+    /* Typography */
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+
     /* Visual */
     background: #3e5491;
   }
-  
-  /* override bootstrap hover color and border */
-  .navbar-default .navbar-nav > li > a:hover {
+
+  nav {
+    /* Box-model */
+    float: right;
+
+    /* Positioning */
+    margin-top: 25px;
+  }
+
+  nav li {
+    display: inline-block;
+
+    /* Box-model */
+    padding-left: 15px;
+
+    /* Positioning */
+    margin-left: 15px;
+
+    /* Typography */
+    line-height: 20px;
+
+    /* Visual */
+    border-left: 1px solid black;
+  }
+
+  nav a {
+    /* Typography */
     color: #3e5491;
+    text-decoration: none;
   }
-  
-  .navbar {
-    background: rgb(206, 206, 206);
-    border: none;
+
+  nav a:hover {
+    color: #666;
   }
-  
-  /* media query for nav background color change */
-  @media only screen and (max-width: 767px) {
-    .navbar-header {
-      background-color: #3e5491;
-    }
+
+  nav li:first-child {
+    /* Box-model */
+    padding-left: 0;
+
+    /* Positioning */
+    margin-left: 0;
+
+    /* Visual */
+    border-left: 0 none;
   }
   /* END NAV */
-  
   
   /* CONNECT W/ ME CSS */
   .connect-header {
@@ -128,6 +184,17 @@ body {
   /* --- END STYLES FOR ALL PAGES --- */
   
   /* --- PAGE-SPECIFIC STYLES --- */
+  /* Card References */
+  #references {
+    background-color: rgb(206, 206, 206);
+    color: #3e5491;
+    font-weight: bold;
+  } 
+  /*h4 {
+    font-weight: bold;
+    font-size: 24px;
+  }
+
   /* ABOUT-ME PAGE */
   .about-me-header {
     /* Positioning */
@@ -148,6 +215,11 @@ body {
     width: 200px;
     margin: 0 20px 10px 0;
   }
+
+  /*s#paragraphs {
+    ;
+  }
+  
   /* END ABOUT-ME PAGE */
 
   /* START LINKS */
@@ -159,6 +231,11 @@ body {
   /* PORTFOLIO PAGE */
   .port-image {
     margin: 20px auto;
+  }
+
+  .responsive {
+    width: 100%;
+    height: auto;
   }
   /* END PORTFOLIO PAGE */
   
