@@ -27,14 +27,23 @@ body {
     color: #3e5491;
   }
   
-  /* create styles for use for all white main boxes */
-  .block {
+  /* About Me Tab */
+  .aboutMe {
     background-color: rgb(206, 206, 206);
     padding: 30px;
     margin-bottom: 30px;
+    color: black;
+    font-size: 1.375em;
+    text-align: center;
+    /* font-weight: bold;
+    width: 100%;
+    max-width: 960px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto; */
   }
   
-  .block-header {
+  .aboutMe-header {
     /* Typography */
     color: #3e5491;
     font-family: Georgia, Times, "Times New Roman", serif;
