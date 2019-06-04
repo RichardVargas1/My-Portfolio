@@ -26,6 +26,17 @@ body {
   h3 {
     color: #3e5491;
   }
+
+  /* My Photo */
+  .centeredHeadshot {
+    display: block;
+    align-items: center;
+    margin: auto;
+    /* width: 60%;
+    margin-left: 400px;
+    margin-right: 250px;
+    height: 200px; */
+  }
   
   /* About Me Tab */
   .aboutMe {
