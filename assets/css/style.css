@@ -90,7 +90,7 @@ body {
     color: White;
     padding: 30px;
     margin-bottom: 30px;
-    background: #4d4d4d;
+    background: #3e5491;
     font-size: 20px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -109,17 +109,18 @@ body {
 
   /* Email Icon */
   .email-icon {
-    background-image: url("../images/Mail_Icon.png");
+    background-image: url("../images");
   }
 
   /* GitHub Icon */
   .github-icon {
-    background-image: url("../images/GitHub-Mark.png");
+    background-image: url("../images");
+    background-size: 200px 1200px;
   }
 
   /* LinkIn Icon */
   .linkedin-icon {
-    background-image: url("../images/LinkedIn_Icon.png");
+    background-image: url("../images");
   }
 
   /* NAV START */
