@@ -48,6 +48,27 @@ body {
     font-weight: bold;
   }
 
+  /* ABOUT-ME PAGE */
+  .about-me-header {
+    /* Positioning */
+    margin-bottom: 33px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+  
+    /* Typography */
+    font-size: 32px;
+    font-weight: bold;
+    color: #3e5491;
+  }
+  
+  #about-image {
+    /* Positioning */
+    float: left;
+  
+    /* Box-model */
+    width: 200px;
+    margin: 0 20px 10px 0;
+  }
+
   /* Portfolio Tab */
   .myPortfolio {
     background-image: url("../images/dark-paths.png");
@@ -62,6 +83,17 @@ body {
     text-align: center;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: bold;
+  }
+
+  /* Contact */
+  #contactMe {
+    color: White;
+    padding: 30px;
+    margin-bottom: 30px;
+    background: #3e5491;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
   }
   
   /* NAV START */
@@ -216,27 +248,6 @@ body {
   /*h4 {
     font-weight: bold;
     font-size: 24px;
-  }
-
-  /* ABOUT-ME PAGE */
-  .about-me-header {
-    /* Positioning */
-    margin-bottom: 33px;
-    font-family: Georgia, Times, "Times New Roman", serif;
-  
-    /* Typography */
-    font-size: 32px;
-    font-weight: bold;
-    color: #3e5491;
-  }
-  
-  #about-image {
-    /* Positioning */
-    float: left;
-  
-    /* Box-model */
-    width: 200px;
-    margin: 0 20px 10px 0;
   }
 
   /*s#paragraphs {
