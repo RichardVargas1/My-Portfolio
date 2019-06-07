@@ -90,12 +90,38 @@ body {
     color: White;
     padding: 30px;
     margin-bottom: 30px;
-    background: #3e5491;
+    background: #4d4d4d;
     font-size: 20px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
   }
-  
+
+  /* Social Media Banner */
+
+  /* Contact Icons */
+  .icon {
+    width: 44px;
+    height: 44px;
+    margin-right: 8px;
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Email Icon */
+  .email-icon {
+    background-image: url("../images/Mail_Icon.png");
+  }
+
+  /* GitHub Icon */
+  .github-icon {
+    background-image: url("../images/GitHub-Mark.png");
+  }
+
+  /* LinkIn Icon */
+  .linkedin-icon {
+    background-image: url("../images/LinkedIn_Icon.png");
+  }
+
   /* NAV START */
   #navContainer {
     position: fixed;
