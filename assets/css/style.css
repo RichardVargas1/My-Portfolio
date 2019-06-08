@@ -87,10 +87,10 @@ body {
 
   /* Contact */
   #contactMe {
-    color: White;
+    color: #3e5491;
     padding: 30px;
     margin-bottom: 30px;
-    background: #3e5491;
+    background: rgb(206, 206, 206);
     font-size: 20px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
