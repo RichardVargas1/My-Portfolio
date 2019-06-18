@@ -70,7 +70,7 @@ body {
   }
 
   /* Portfolio Tab */
-  .myPortfolio {
+  .myAssignments {
     background-image: url("../images/dark-paths.png");
     color: White;
     padding: 30px;
@@ -78,12 +78,32 @@ body {
   }
   
   /* Typography */
-  .myPortfolio-header {
+  .myAssignments-header {
     color: White;
     text-align: center;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: bold;
   }
+
+  /* Projects Tab */
+  .myProjects {
+    background-image: url("../images/dark-paths.png");
+    color: White;
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+
+  #descriptionText {
+    font-family: 'Open Sans', sans-serif; 
+  }
+
+  .myProjects-header {
+    color: White;
+    text-align: center;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: bold;
+  }
+  /* End Projects Tab */
 
   /* Contact */
   #contactMe {
